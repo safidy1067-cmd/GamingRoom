@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Jeux PC</title>
+
+    <link rel="icon" type="image/png" href="IMG/une-manette.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                Gaming<span class="custom-i">Room</span>
+            </a>
+        </div>
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="jeux.html">Jeux & eSport</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="produit.html">Produits</a></li>
+            </ul>
+        </nav>
+        
+         <div class="responsive-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="game">
+        <div class="section-title">
+            <h1>Nos Jeux</h1>
+        </div>
+
+        <div class="games-container">
+                <div class="game-card" 
+                data-title="EA Sport FC 26" 
+                data-genre="Sport" 
+                data-players="1 à 8 joueurs" 
+                data-req="Compte requis"
+                data-desc="La simulation de football de référence. Ultimate Team, matchs en local entre amis ou en ligne. "
+                data-bg="IMG/Jeux/FC 26.webp">
+                
+                <div class="card-bg" style="background-image: url('IMG/Jeux/FC\ 26.webp');"></div>
+                <div class="card-content">
+                    <div class="tags-top">
+                        <span class="tag tag-players">👥 1 à 8</span>
+                        <span class="tag tag-account">COMPTE</span>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="tag tag-genre">Sport</span>
+                        <h3 class="game-title">EA Sport FC 26</h3>
+                    </div>
+                </div>
+                </div>
+                 <div class="game-card" 
+                data-title="COUNTER-STRIKE 2" 
+                data-genre="FPS" 
+                data-players="5v5 joueurs" 
+                data-req="Compte requis"
+                data-desc="La référence du FPS compétitif depuis plus de 20 ans. Graphismes modernisés avec le moteur Source 2, gameplay millimétré. Incontournable pour les amateurs d'esport. "
+                data-bg="IMG/Jeux/COUNTER-STRIKE 2.jpg">
+                
+                <div class="card-bg" style="background-image: url('IMG/Jeux/COUNTER-STRIKE\ 2.jpg');"></div>
+                <div class="card-content">
+                    <div class="tags-top">
+                        <span class="tag tag-players">👥 5v5</span>
+                        <span class="tag tag-account">COMPTE</span>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="tag tag-genre">FPS</span>
+                        <h3 class="game-title">COUNTER-STRIKE 2</h3>
+                    </div>
+                </div>
+                </div>
+                 <div class="game-card" 
+                data-title="CALL OF DUTY: WARZONE" 
+                data-genre="Battle Royale" 
+                data-players="1 à 4 joueurs" 
+                data-req="Compte requis"
+                data-desc="Le Battle Royale de la franchise Call of Duty. Action intense, arsenal varié et parties rapides. Gratuit et accessible à tous. "
+                data-bg="IMG/Jeux/CALL OF DUTY.webp">
+                
+                <div class="card-bg" style="background-image: url('IMG/Jeux/CALL\ OF\ DUTY.webp');"></div>
+                <div class="card-content">
+                    <div class="tags-top">
+                        <span class="tag tag-players">👥 1 à 4</span>
+                        <span class="tag tag-account">COMPTE</span>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="tag tag-genre">Battle Royale</span>
+                        <h3 class="game-title">Call of DUTY: WARZONE</h3>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="game-card" 
+                data-title="NARUTO STORM 4" 
+                data-genre="Combat" 
+                data-players="1 à 2 joueurs" 
+                data-req="Compte requis"
+                data-desc="Jeu de combat. Maîtrise les combos et affronte tes adversaires en duel."
+                data-bg="IMG/Jeux/NARUTO SHIPPUDEN STORM 4.webp">
+                
+                <div class="card-bg" style="background: url('IMG/Jeux/NARUTO\ SHIPPUDEN\ STORM\ 4.webp');"></div>
+                <div class="card-content">
+                    <div class="tags-top">
+                        <span class="tag tag-players">👥 1 à 2</span>
+                        <span class="tag tag-account">COMPTE</span>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="tag tag-genre">Combat</span>
+                        <h3 class="game-title">NARUTO STORM 4</h3>
+                    </div>
+                </div>
+                </div>
+            <div id="gameModal" class="modal">
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <div class="modal-header" id="modal-bg">
+                    </div>
+                <div class="modal-body">
+                    <h2 id="modal-title">NARUTO STORM 4</h2>
+                    <div class="modal-tags">
+                        <span class="tag tag-genre" id="modal-genre">Combat</span>
+                        <span class="tag tag-players">👥 Solo & Multijoueur</span>
+                        <span class="tag tag-players" id="modal-players">🎮 1 à 6 joueurs</span>
+                        <span class="tag tag-account" id="modal-req">Compte requis</span>
+                    </div>
+                    <p id="modal-desc" class="modal-description">
+                        Jeu de combat. Maîtrise les combos et affronte tes adversaires en duel.
+                    </p>
+                    <div class="modal-footer">
+                        <span>🖥️ Disponible sur tous nos PC • Mis à jour quotidiennement</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+        
+                <div class="game-card" 
+                data-title="NBA 2K26" 
+                data-genre="Sport" 
+                data-players="1 à 4 joueurs" 
+                data-req="Compte requis"
+                data-desc="Simulation sportive. Affronte tes amis dans des matchs intenses."
+                data-bg="IMG/Jeux/NBA 2K26.webp">
+                
+                <div class="card-bg" style="background:url('IMG/Jeux/NBA 2K26.webp');"></div>
+                <div class="card-content">
+                    <div class="tags-top">
+                        <span class="tag tag-players">👥 1 à 4</span>
+                        <span class="tag tag-account">COMPTE</span>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="tag tag-genre">Sport</span>
+                        <h3 class="game-title">NBA 2K26</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="gameModal" class="modal">
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <div class="modal-header" id="modal-bg">
+                    </div>
+                <div class="modal-body">
+                    <h2 id="modal-title">NBA 2K26</h2>
+                    <div class="modal-tags">
+                        <span class="tag tag-genre" id="modal-genre">Sport</span>
+                        <span class="tag tag-players">👥 Solo & Multijoueur</span>
+                        <span class="tag tag-players" id="modal-players">🎮 1 à 4 joueurs</span>
+                        <span class="tag tag-account" id="modal-req">Compte requis</span>
+                    </div>
+                    <p id="modal-desc" class="modal-description">
+                        Jeu de basket.
+                    </p>
+                    <div class="modal-footer">
+                        <span>🖥️ Disponible sur tous nos PC • Mis à jour quotidiennement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                <div class="game-card" 
+                data-title="TEKKEN 8" 
+                data-genre="Combat" 
+                data-players="1 à 2 joueurs" 
+                data-req="Compte requis"
+                data-desc="Jeu de combat 3D au système de combat Heat explosif. Graphismes Unreal Engine 5 époustouflants. Le combat au sommet."
+                data-bg="IMG/Jeux/TEKKEN 8.webp">
+                
+                <div class="card-bg" style="background: url('IMG/Jeux/TEKKEN 8.webp');"></div>
+                <div class="card-content">
+                    <div class="tags-top">
+                        <span class="tag tag-players">👥 1 à 2</span>
+                        <span class="tag tag-account">COMPTE</span>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="tag tag-genre">Combat</span>
+                        <h3 class="game-title">TEKKEN 8</h3>
+                    </div>
+                </div>
+                </div>
+            <div id="gameModal" class="modal">
+            <div class="modal-content">
+                <button class="close-btn">&times;</button>
+                <div class="modal-header" id="modal-bg">
+                    </div>
+                <div class="modal-body">
+                    <h2 id="modal-title">TEKKEN 8</h2>
+                    <div class="modal-tags">
+                        <span class="tag tag-genre" id="modal-genre">Combat</span>
+                        <span class="tag tag-players">👥 Solo & Multijoueur</span>
+                        <span class="tag tag-players" id="modal-players">🎮 1 à 2 joueurs</span>
+                        <span class="tag tag-account" id="modal-req">Compte requis</span>
+                    </div>
+                    <p id="modal-desc" class="modal-description">
+                        Jeu de combat 3D au système de combat Heat explosif. Graphismes Unreal Engine 5 époustouflants. Le combat au sommet.
+                    </p>
+                    <div class="modal-footer">
+                        <span>🖥️ Disponible sur tous nos PC • Mis à jour quotidiennement</span>
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>
+                    Gaming<span class="custom-i-footer">Room</span>
+                </h3>
+                <p>Nos Reseux sociaux</p>
+                <div class="footer-social">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitch.com" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                    
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul class="quick-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="jeux.html">Jeux & eSport</a></li>
+                    <li><a href="tarifs.html">Tarifs</a></li>
+                    <li><a href="produit.html">Produits</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Localisation</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Fianrantsoa, Madagascar</li>
+                </ul>
+            </div>
+
+             <div class="footer-section">
+                <h3>Contact</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone"></i> +261 38 87 110 95</li>
+                    <li><i class="fas fa-envelope"></i>GamingRoom@gmail.com</li>
+                </ul>
+            </div>
+
+            
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span>GamingRoom</span> | Tous droits réservés </p>
+            
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>

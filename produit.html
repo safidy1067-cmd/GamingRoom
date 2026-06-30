@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Produits Gaming</title>
+
+    <link rel="icon" type="image/png" href="IMG/une-manette.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                Gaming<span class="custom-i">Room</span>
+            </a>
+        </div>
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="jeux.html">Jeux & eSport</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="produit.html">Produits</a></li>
+            </ul>
+        </nav>
+        
+         <div class="responsive-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="produit">
+        <div class="section-title">
+            <h1>Nos Produits</h1>
+        </div>
+
+         <div class="product-grid">
+            <article class="product-card">
+                <div class="image-container">
+                    <img src="IMG/pro-h6-dark.webp" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Casque Gaming Sarepo GH25</h2>
+                    <p class="product-desc">Modèle filaire d'entrée de gamme conçu ppour offrir une bonne immersion audio </p>
+                    <div class="price-row">
+                        <span class="price">60 000 Ar</span>
+                        <button class="btn-add" onclick="addToCart('Casque Gaming Sarepo GH25')">Acheter</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="image-container">
+                    <img src="IMG/souris-filaire-gaming-elite-m30-led-personnalisable-boutons-programmables-spirit-of-gamer.jpg" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Souris filaire Gaming Elite M30 led</h2>
+                    <p class="product-desc">Souris filaire Gaming Elite M30 led personnalisable boutons programmables Spirit of Gamer</p>
+                    <div class="price-row">
+                        <span class="price">20 000 Ar</span>
+                        <button class="btn-add" onclick="addToCart('Souris filaire gaming elite m30 led')">Acheter</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="image-container">
+                    <img src="IMG/refroidisseur-pour-ordinateur-portable-compatible-de-10-a-17-pouces-retroeclaire-spirit-of-gamer-airblade-800.jpg" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Refroidisseur Sprit of Gamer Airblade 800</h2>
+                    <p class="product-desc">Refroidisseur pour ordinateur portable compatible de 10 à 17 pouces retroeclaire Spirit of Gamer Airblade 800</p>
+                    <div class="price-row">
+                        <span class="price">20 000 Ar</span>
+                        <button class="btn-add" onclick="addToCart('Refroidisseur Sprit of Gamer Airblade 800')">Acheter</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="image-container">
+                    <img src="IMG/clavier-souris-filaire-tapis-de-souris-gaming-retroeclaire-spirif-of-gamer-pro-mk5.jpg" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Sprit Of Gamer 4 in 1 Ultimate 300</h2>
+                    <p class="product-desc">Clavier/Souris/Tapis/Casque</p>
+                    <div class="price-row">
+                        <span class="price">100 000 Ar</span>
+                        <button class="btn-add" onclick="addToCart('Sprit Of Gamer 4 in 1 Ultimate 300')">Acheter</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="image-container">
+                    <img src="IMG/manette-pour-playstation-4-sans-fil-bluetooth-rechargeable-usb-noir-et-bleu.jpg" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Manette Playstation 4</h2>
+                    <p class="product-desc">Manette pour Playstation 4 sans fil bluetooth rechargeable usb, noir et bleu</p>
+                    <div class="price-row">
+                        <span class="price">55 000 Ar</span>
+                        <button class="btn-add" onclick="addToCart('Manette Playstation 4')">Acheter</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="image-container">
+                    <img src="IMG/clavier-sans-fil-azerty-gaming-touches-retroeclairees-anti-ghosting-spirit-of-gamer.jpg" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Clavier</h2>
+                    <p class="product-desc">Clavier sans fil azerty gaming touches retroeclairees anti ghosting Spirit of Gamer</p>
+                    <div class="price-row">
+                        <span class="price">80 000 Ar</span>
+                        <button class="btn-add" onclick="addToCart('Clavier')">Acheter</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>
+                    Gaming<span class="custom-i-footer">Room</span>
+                </h3>
+                <p>Nos Reseux sociaux</p>
+                <div class="footer-social">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitch.com" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                    
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul class="quick-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="jeux.html">Jeux & eSport</a></li>
+                    <li><a href="tarifs.html">Tarifs</a></li>
+                    <li><a href="produit.html">Produits</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Localisation</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Fianrantsoa, Madagascar</li>
+                </ul>
+            </div>
+
+             <div class="footer-section">
+                <h3>Contact</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone"></i> +261 38 87 110 95</li>
+                    <li><i class="fas fa-envelope"></i>GamingRoom@gmail.com</li>
+                </ul>
+            </div>
+
+            
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span>GamingRoom</span> | Tous droits réservés </p>
+            
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
